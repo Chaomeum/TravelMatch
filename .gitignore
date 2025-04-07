@@ -1,0 +1,48 @@
+
+# === BACKEND (Spring Boot - Maven) ===
+/backend/target/
+/backend/.idea/
+/backend/.classpath
+/backend/.project
+/backend/.settings/
+/backend/.vscode/
+
+# Logs
+/backend/logs/
+/backend/*.log
+
+# Maven
+/backend/.mvn/
+/backend/mvnw
+/backend/mvnw.cmd
+
+# IntelliJ IDEA
+/backend/*.iml
+
+# === FRONTEND (Angular) ===
+/frontend/node_modules/
+/frontend/.angular/
+/frontend/dist/
+/frontend/.idea/
+/frontend/.vscode/
+/frontend/*.iml
+
+# Angular build output
+/frontend/tmp
+/frontend/out-tsc
+
+# === ENV FILES ===
+**/.env
+**/.env.local
+**/.env.*.local
+
+# === OS / Editor Junk ===
+*.swp
+*.swo
+*.bak
+*.tmp
+*~
+
+# === TEST REPORTS ===
+/**/coverage/
+/**/test-results/
